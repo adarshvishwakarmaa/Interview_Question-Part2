@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Counter:<span id="countt">0</span></h2>
+    <button onclick="incre()">increment</button>
+        <button onclick="decre()">decrement</button>
+    <script>
+        let count = 0
+        function updateCounter(){
+            document.getElementById("countt").textContent = count;
+        }
+
+        function incre(){
+            count++;
+            updateCounter()
+        }
+
+        function decre(){
+            count--;
+            updateCounter()
+        }
+      
+        
+    </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2><span id="counter">0</span></h2>
+    <button onclick="increase()">icrement</button>
+    <button onclick="decrease()">decrement</button>
+
+    <script>
+        let mycount = 0
+
+        function updateCount(){
+            document.getElementById("counter").textContent = mycount
+        }
+
+        function increase(){
+            mycount ++
+            updateCount()
+        }
+
+         function decrease(){
+            mycount --
+            updateCount()
+        }
+    </script>
+</body>
+</html>
